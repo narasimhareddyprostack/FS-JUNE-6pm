@@ -1,0 +1,23 @@
+<html>
+
+<head></head>
+
+<body>
+    <input type="text" id="abc" onfocus="change_Color()" />
+    <hr>
+    <input type="text" id="xyz" onblur="change_Case()" />
+</body>
+<script>
+    function change_Color() {
+        document.getElementById('abc').style.backgroundColor = "yellow"
+    }
+    function change_Case() {
+        //alert("test")
+        let name = document.getElementById('xyz').value;
+        //alert(name)
+        //document.getElementById('xyz').value = "Rajni"
+        document.getElementById('xyz').value = name.toUpperCase()
+    }
+</script>
+
+</html>
