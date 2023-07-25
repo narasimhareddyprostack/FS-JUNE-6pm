@@ -1,0 +1,37 @@
+ES6 New -Features
+
+What is ES 6 ? ECMA Script proving standards to Scirpt programming lang.
+
+Babel?
+What is Transpiler?
+How to preset - Env?  from ES6 to ES5?
+What is Browser compatability? 
+Did you work on any Browser compatale issue?
+
+ES6 - New Featues
+1. let, const
+2. class 
+3. ()=>{}  Fat Arrow function
+4. [] - new methods
+   a) [].map()
+   b) [].forEach()
+   c) [].reduce()
+   d) [].filter()
+   etc..
+5) ... dot operator 
+   a) spread operator
+   b) rest operator 
+6) Destrucuturing 
+   a)Object
+   b)Array
+7) ${} - String Literal
+8) import and export 
+    a)default 
+    b)named
+9) asynchronous programming - using JS
+   a) call back
+   b) Promise
+   c) Async and await
+10) Closure
+11) Set Class 
+   
