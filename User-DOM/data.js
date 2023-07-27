@@ -161,6 +161,8 @@ let display_Data = ()=>{
                             <td>${user.email} </td>
                             <td>${user.gender} </td>
                             <td>${user.phone} </td>
+                            <td>${user.email.split('@').pop()} </td>
+                            
                      
                        </tr>`
     })
@@ -168,3 +170,5 @@ let display_Data = ()=>{
 document.getElementById('table_Data').innerHTML=rows
 //document.getElementById('table_Data').innerHTML="Tea"
 }
+  {/* <td>${user.email.split('@').pop()} </td> */}
+{/* <td>${user.email.substring(user.email.indexOf('@')+1).toUpperCase()} </td>  */}
